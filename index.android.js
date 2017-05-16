@@ -8,11 +8,9 @@ import { Text, AppRegistry } from 'react-native';
 
 //Create a component
 //This is JSX not HTML
-const App = () => {
-  return (
+const App = () => (
     <Text>Hello World</Text>
   );
-};
 
 //Render it to the device
 AppRegistry.registerComponent('albums', () => App);
