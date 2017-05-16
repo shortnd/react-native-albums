@@ -13,3 +13,4 @@ const App = ()=>{
 };
 
 //Render it to the device
+ReactNative.AppRegistry.registerComponent('albums', () => App);
