@@ -5,6 +5,11 @@ import React from 'react';
 import ReactNative from 'react-native';
 
 //Create a component
-
+//This is JSX not HTML
+const App = ()=>{
+  return (
+    <Text>Hello World</Text>
+  );
+};
 
 //Render it to the device
