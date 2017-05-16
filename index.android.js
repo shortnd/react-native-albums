@@ -4,12 +4,16 @@
 import React from 'react';
 //Just imports the text property in the react-native library
 //Also import AppRegistry from react-native
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+//Import the header
+import Header from './src/components/header';
 
 //Create a component
 //This is JSX not HTML
 const App = () => (
-    <Text>Hello World</Text>
+    //Rendering the imported component
+    //This is a self closing tag because nothing is in it
+    <Header />
   );
 
 //Render it to the device
