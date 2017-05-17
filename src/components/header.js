@@ -17,7 +17,7 @@ const Header = () => {
 const styles = {
   //For the view
   viewStyle: {
-    backgroundColor: '#F8F8F8'
+    backgroundColor: '#F8F8F8'    
   },
   //For the text
   textStyle: {
