@@ -13,7 +13,8 @@ import Header from './src/components/header';
 const App = () => (
   //Rendering the imported component
   //This is a self closing tag because nothing is in it
-  <Header />
+  //headerText is 'Albums!' and is props for the header component
+  <Header headerText={'Albums!'} />
 );
 
 //Render it to the device
