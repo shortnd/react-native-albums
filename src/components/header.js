@@ -5,7 +5,7 @@ import { Text } from 'react-native';
 //Make a component
 const Header = () => {
   //brings in the style to the component
-  const { textStyle } = styles
+  const { textStyle } = styles;
   return <Text style={textStyle}>Albums</Text>;
 };
 
